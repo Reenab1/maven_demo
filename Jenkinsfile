@@ -3,7 +3,7 @@ pipeline {
     stages {
 stage('scm') {
 steps {
-    git 'https://github.com/reenab1/maven_demo.git'
+    git 'https://github.com/Reenab1/maven_demo.git'
     }
 }
     stage('build') {
